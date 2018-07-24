@@ -1,0 +1,40 @@
+{
+  "name": "projecthasfun",
+  "version": "1.0.0",
+  "description": "ProjectHasFUN",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "sass-loader": "^7.0.3",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.6",
+    "vue-material": "^1.0.0-beta-10.2",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack --display-error-details",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanmakuFrontendProject/ProjectHasfun.git"
+  },
+  "keywords": [
+    "danmaku"
+  ],
+  "author": "Danmaku Frontend Group",
+  "license": "LGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/DanmakuFrontendProject/ProjectHasfun/issues"
+  },
+  "homepage": "https://github.com/DanmakuFrontendProject/ProjectHasfun#readme"
+}
