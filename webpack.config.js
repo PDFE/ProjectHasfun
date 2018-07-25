@@ -30,7 +30,8 @@ module.exports = {
                 options: {
                     appendTsSuffixTo: [/\.vue$/],
                 }
-            }
+            },
+            {test:/\.css$/,loaders:["style-loader","css-loader"]}
         ]
     },
     resolve: {
@@ -41,8 +42,7 @@ module.exports = {
     },
     devServer: {
         contentBase:"./dist",
-        historyApiFallback: true,
-        noInfo: true
+        historyApiFallback: true
     },
     devtool: 'inline-source-map',
     plugins:[new VueLoaderPlugin],
