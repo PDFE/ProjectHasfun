@@ -7,6 +7,6 @@ import '../node_modules/vuetify/dist/vuetify.min.css';
 Vue.use(VueRouter);
 Vue.use(Vuetity);
 const app = new Vue({
-    template:"<router-view></router-view>",
-    router:new VueRouter({routes}),
+    template: "<router-view></router-view>",
+    router: new VueRouter({ routes }),
 }).$mount("#app");
