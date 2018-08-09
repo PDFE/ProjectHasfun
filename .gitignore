@@ -1,4 +1,5 @@
 .*/
 node_modules/
 dist/index.js
+src/Methods/Api/config.ts
 package-lock.js

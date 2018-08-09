@@ -14,6 +14,11 @@ It uses:
  - `src/` Source Folder
    - `Pages/` Router's Pages Components Folder
    - `Components/` Packed components Folder
+   - `Methods/` Methods Folder
+    - `Api/`
+      - `apis.ts` Api routes
+      - `config.sample.ts` Api URL config's sample file,edit it & rename it to `config.ts`
+      - `index.ts` Api loader
    - `routes.ts` Routes, edit it to manage routes
    - `index.ts` Entrance file
  - `dist/` Distributed Folder
