@@ -8,6 +8,7 @@ It uses:
  - TypeScript 2.9.2
  - Vuetify 1.1.8
  - webpack 4.16.2
+ - Vuex 3.0.1
 
 ### Folders & Docs
 
