@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^10.7.1",
     "css-loader": "^1.0.0",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
