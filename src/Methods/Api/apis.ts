@@ -2,16 +2,25 @@ export default [
     {
         uri:"/recommend",
         name:"recommend",
+        method:"GET",
         params:["category"]
     },
     {
         uri:"/categories",
         name:"category",
+        method:"GET",
         params:null
     },
     {
         uri:"/detail",
         name:"detail",
+        method:"GET",
+        params:["id"]
+    },
+    {
+        uri:"/userData",
+        name:"user",
+        method:"GET",
         params:["id"]
     }
 ]

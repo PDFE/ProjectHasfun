@@ -8,12 +8,18 @@ It uses:
  - TypeScript 2.9.2
  - Vuetify 1.1.8
  - webpack 4.16.2
+ - Vuex 3.0.1
 
 ### Folders & Docs
 
  - `src/` Source Folder
    - `Pages/` Router's Pages Components Folder
    - `Components/` Packed components Folder
+   - `Methods/` Methods Folder
+    - `Api/`
+      - `apis.ts` Api routes
+      - `config.sample.ts` Api URL config's sample file,edit it & rename it to `config.ts`
+      - `index.ts` Api loader
    - `routes.ts` Routes, edit it to manage routes
    - `index.ts` Entrance file
  - `dist/` Distributed Folder
